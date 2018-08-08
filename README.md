@@ -4,8 +4,10 @@ Program that analyzes HTML and finds a specific element, even after changes, usi
 extracted attributes.
 
 ### Running
-<platform> <program_path> <input_origin_file_path> <input_other_sample_file_path> <input_element_id>
 
+```
+<platform> <program_path> <input_origin_file_path> <input_other_sample_file_path> <input_element_id>
+```
 ```
  java -jar html_parser.jar sample-0-origin.html sample-1-evil-gemini.html make-everything-ok-button
 ```
